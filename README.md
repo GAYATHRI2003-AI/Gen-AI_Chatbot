@@ -52,13 +52,23 @@ pip install duckduckgo-search --upgrade --trusted-host pypi.org --trusted-host p
 
 Note: Set the environment variable for Gemini API Replace with your Google AI Studio API key.
 
-## ✨ How It Works: 
-  Loads an LLM (Gemini Pro) using your API key.
-  Creates tools (web_search, scholarship_search, visa_info_search, job_market_analysis) using LangChain’s Tool.from_function.
-  Builds a LangGraph state machine to manage message history and agent calls.
-  Uses Streamlit to render a clean, interactive chat interface.
-  On user input:
-    Appends user message to state
-    Agent processes it with memory + tools
-    Outputs a helpful response
-    Outputs are styled in a chat bubble format.
+## ✨ How It Works
+
+1. 🧠 **Loads an LLM (Gemini Pro)** using your Google API key.
+2. 🛠️ **Creates tools** with `LangChain`:
+   - `web_search`
+   - `scholarship_search`
+   - `visa_info_search`
+   - `job_market_analysis`
+3. 🔄 **Builds a LangGraph state machine** to manage:
+   - Message history  
+   - Agent workflow and responses
+4. 💬 **Renders a chat interface using Streamlit**:
+   - Clean UI with styled chat bubbles
+   - Input field and send button
+5. 📥 **On user input**:
+   - Appends the message to session state  
+   - Agent uses memory and tools to process it  
+   - Returns a helpful and structured response  
+   - Response is displayed in a bot-style chat bubble
+
