@@ -52,6 +52,8 @@ pip install duckduckgo-search --upgrade --trusted-host pypi.org --trusted-host p
 
 Note: Set the environment variable for Gemini API Replace with your Google AI Studio API key.
 
+---
+
 ## ✨ How It Works
 
 1. 🧠 **Loads an LLM (Gemini Pro)** using your Google API key.
@@ -72,3 +74,9 @@ Note: Set the environment variable for Gemini API Replace with your Google AI St
    - Returns a helpful and structured response  
    - Response is displayed in a bot-style chat bubble
 
+---
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+---
