@@ -51,10 +51,3 @@ If you encounter SSL issues with duckduckgo-search, try:
 pip install duckduckgo-search --upgrade --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org
 
 Note: Set the environment variable for Gemini API Replace with your Google AI Studio API key.
-
----
-
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
-
----
