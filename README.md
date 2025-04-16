@@ -54,28 +54,6 @@ Note: Set the environment variable for Gemini API Replace with your Google AI St
 
 ---
 
-## ✨ How It Works
-
-1. 🧠 **Loads an LLM (Gemini Pro)** using your Google API key.
-2. 🛠️ **Creates tools** with `LangChain`:
-   - `web_search`
-   - `scholarship_search`
-   - `visa_info_search`
-   - `job_market_analysis`
-3. 🔄 **Builds a LangGraph state machine** to manage:
-   - Message history  
-   - Agent workflow and responses
-4. 💬 **Renders a chat interface using Streamlit**:
-   - Clean UI with styled chat bubbles
-   - Input field and send button
-5. 📥 **On user input**:
-   - Appends the message to session state  
-   - Agent uses memory and tools to process it  
-   - Returns a helpful and structured response  
-   - Response is displayed in a bot-style chat bubble
-
----
-
 ## 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
